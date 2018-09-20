@@ -8,3 +8,4 @@ edition = "2018"
 api = { path = "api" }
 core = { path = "core" }
 web = { path = "web" }
+clap = {version = "~2.27.0", features = ["yaml"]}

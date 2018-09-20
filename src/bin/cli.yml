@@ -1,0 +1,9 @@
+name: core
+version: "0.1.0"
+args:
+  - peers:
+      short: p 
+      long: peers
+      value_name: "ports"
+      help: supply list of other known ports of running core, separated by comma
+      takes_value: true
