@@ -1,5 +1,5 @@
 /target
 **/*.rs.bk
 
-/target
+*/target
 **/*.rs.bk
