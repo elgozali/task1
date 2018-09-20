@@ -43,7 +43,10 @@ See [Web Application documentation](web/README.md) for the detailed functionalit
 
 The API server is just a `RESTful` app, that can be used as the integration layer to expose the functionality of the `core` server application
 
+See [API Application documentation](api/README.md) for the detailed functionalities
+
 ### The Core Server
 
 The `core` server is just a key-value store server that has the capabilities of synchronising with other core servers in the space. The information of all `core` servers that are active should be defined at runtime.
 
+See [Core Application documentation](core/README.md) for the detailed functionalities
