@@ -1,4 +1,21 @@
 [[package]]
+name = "api"
+version = "0.1.0"
+
+[[package]]
+name = "core"
+version = "0.1.0"
+
+[[package]]
 name = "task1"
+version = "0.1.0"
+dependencies = [
+ "api 0.1.0",
+ "core 0.1.0",
+ "web 0.1.0",
+]
+
+[[package]]
+name = "web"
 version = "0.1.0"
 

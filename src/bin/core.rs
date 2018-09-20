@@ -1,3 +1,7 @@
+
+use core;
+
 fn main() {
-    println!("Hello, world! from core");
+    let core = core::hello();
+    println!("Hello, world!: {}", core);
 }

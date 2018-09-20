@@ -1,3 +1,7 @@
+
+use api;
+
 fn main() {
-    println!("Hello, world! from API");
+    let hello = api::hello();
+    println!("Hello, world!: {}", hello);
 }

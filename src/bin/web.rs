@@ -1,3 +1,7 @@
+
+use web;
+
 fn main() {
-    println!("Hello, world! from web");
+    let web = web::hello();
+    println!("Hello, world!: {}", web);
 }
